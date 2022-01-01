@@ -59,7 +59,9 @@ const OfficeBenifits = () => {
           <div className="col-lg-4 col-md-4 col-sm-12 ">
             <div className="row">
               <div className="col-2">
-                <i style={{ color: "#fda12b" }} class="fas fa-users-cog fs-1 pt-3"></i>
+                <i
+                  style={{ color: "#fda12b" }}
+                  class="fas fa-users-cog fs-1 pt-3"></i>
               </div>
               <div className="col-10 text-start">
                 <h3>Our Services</h3>
