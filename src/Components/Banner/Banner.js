@@ -49,7 +49,7 @@ const Banner = () => {
                     <div className="carousel-caption">
                         <Carousel.Caption className='carousel'>
                             <div className="caption">
-                                <h4 data-aos='fade-up'>We are always ready to: <span className='bn-special'>Services</span></h4>
+                                <h4 data-aos='fade-up'>We are always ready to <span className='bn-special'>Services</span></h4>
                                 <h1 data-aos='fade-up'>Home maintains Quickly</h1>
                                 <p data-aos='fade-up'>Each waiver agency must develop working relationships with the Home Repair and Weatherization service providers.</p>
                                 <Button data-aos='fade-up' className="btn btn-style">Get Started Now <AiOutlineArrowRight className="arrow" /></Button>
