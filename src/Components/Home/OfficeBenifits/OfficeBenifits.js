@@ -1,16 +1,16 @@
 import React from 'react';
 import painterPeople from '../../../images/painter1.png'
 const OfficeBenifits = () => {
-    return (
-        <>
-            <div className="container mx-auto my-5">
+  return (
+    <>
+      <div className="container mx-auto my-5">
         <div className="row">
           <div className="col-lg-4 col-md-4 col-sm-12 mb-4">
             <div className="row">
               <div className="col-2">
                 <i
                   style={{ color: "#fda12b" }}
-                  class="far fa-clock fs-1 pt-3"></i>
+                  className="far fa-clock fs-1 pt-3"></i>
               </div>
               <div className="col-10 text-start">
                 <h3>Office 24/7 Opened</h3>
@@ -60,7 +60,7 @@ const OfficeBenifits = () => {
               <div className="col-2">
                 <i
                   style={{ color: "#fda12b" }}
-                  class="fas fa-users-cog fs-1 pt-3"></i>
+                  className="fas fa-users-cog fs-1 pt-3"></i>
               </div>
               <div className="col-10 text-start">
                 <h3>Our Services</h3>
@@ -71,8 +71,8 @@ const OfficeBenifits = () => {
           </div>
         </div>
       </div>
-        </>
-    );
+    </>
+  );
 };
 
 export default OfficeBenifits;
