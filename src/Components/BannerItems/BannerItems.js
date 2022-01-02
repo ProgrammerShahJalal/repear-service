@@ -2,9 +2,9 @@ import React from 'react';
 import { Button, Card, Col, Container, Row } from 'react-bootstrap';
 import { AiOutlineArrowRight } from 'react-icons/ai';
 import './BannerItems.css'
-import service1 from '../image/service1.jpg'
-import service2 from '../image/service2.jpg'
-import service3 from '../image/service3.jpg'
+import service1 from '../bannerImage/service1.jpg'
+import service2 from '../bannerImage/service2.jpg'
+import service3 from '../bannerImage/service3.jpg'
 const BannerItems = () => {
     return (
         <div>

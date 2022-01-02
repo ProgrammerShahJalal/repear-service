@@ -2,9 +2,9 @@ import React, { useEffect } from 'react';
 import './Banner.css'
 import { AiOutlineArrowRight } from 'react-icons/ai';
 import { Button, Carousel} from 'react-bootstrap';
-import slide1 from '../image/slide1-1.jpg'
-import slide2 from '../image/slide1-2.jpg'
-import slide3 from '../image/slide1-3.jpg'
+import slide1 from '../bannerImage/slide1-1.jpg'
+import slide2 from '../bannerImage/slide1-2.jpg'
+import slide3 from '../BannerImage/slide1-3.jpg'
 import 'aos/dist/aos.css'
 import Aos from 'aos'
 
