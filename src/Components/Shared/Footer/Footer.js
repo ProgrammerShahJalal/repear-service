@@ -58,7 +58,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className='text-center last-footer'>
-                <small>Copyright © 2022 All Rights Reserved by <span id="special">TEAM-59</span></small>
+                <small>© 2022 All Rights Reserved by <span id="special">TEAM-59</span></small>
             </div>
         </div>
     );
