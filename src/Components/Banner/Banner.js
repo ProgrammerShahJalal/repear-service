@@ -32,8 +32,8 @@ const Banner = () => {
                         <Carousel.Caption className='carousel'>
                             <div className="caption">
                                 <h4 data-aos='fade-up'>Best <span className='bn-special'>Service</span> Provider Company</h4>
-                                <h1 data-aos='fade-up'>Trusted Plumbing</h1>
-                                <p data-aos='fade-up'>Pellentesque habitant morbi tristique senectus et pellente morbi nectneolitics ellentesque vestibulum nectneolitics modern</p>
+                                <h1 data-aos='fade-up'>We Build for Your Comfort</h1>
+                                <p data-aos='fade-up'>Repair means to restore to proper operating condition a tank, pipe, spill prevention equipment.</p>
                                 <Button data-aos='fade-left' className="btn btn-style">Get Started Now <AiOutlineArrowRight className="arrow" /></Button>
                             </div>
                         </Carousel.Caption>
@@ -50,8 +50,8 @@ const Banner = () => {
                         <Carousel.Caption className='carousel'>
                             <div className="caption">
                                 <h4 data-aos='fade-up'>We are always ready to <span className='bn-special'>Services</span></h4>
-                                <h1 data-aos='fade-up'>Trusted Plumbing</h1>
-                                <p data-aos='fade-up'>Pellentesque habitant morbi tristique senectus et pellente morbi nectneolitics ellentesque vestibulum nectneolitics modern</p>
+                                <h1 data-aos='fade-up'>Home maintains Quickly</h1>
+                                <p data-aos='fade-up'>Each waiver agency must develop working relationships with the Home Repair and Weatherization service providers.</p>
                                 <Button data-aos='fade-up' className="btn btn-style">Get Started Now <AiOutlineArrowRight className="arrow" /></Button>
 
                             </div>
@@ -69,8 +69,8 @@ const Banner = () => {
                         <Carousel.Caption className='carousel'>
                             <div className="caption">
                                 <h4 data-aos='fade-up'>Make your <span className='bn-special'>dream</span> come true</h4>
-                                <h1 data-aos='fade-up'>Trusted Plumbing</h1>
-                                <p data-aos='fade-up'>Pellentesque habitant morbi tristique senectus et pellente morbi nectneolitics ellentesque vestibulum nectneolitics modern</p>
+                                <h1 data-aos='fade-up'>Trusted Plumbing Service</h1>
+                                <p data-aos='fade-up'>Emergency Repairs means repairs to a utility facility located in or adjacent to a primary city street that must be performed immediately.</p>
                                 <Button data-aos='fade-up' className="btn btn-style">Get Started Now <AiOutlineArrowRight className="arrow" /></Button>
                             </div>
                         </Carousel.Caption>
