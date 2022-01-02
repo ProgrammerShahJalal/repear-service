@@ -37,3 +37,15 @@
     align-items: center;
     margin-bottom: 1em;
 }
+
+/* Making responsive */
+@media (min-width: 320px) and (max-width: 425px) { 
+.gallary{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+}
+ }
