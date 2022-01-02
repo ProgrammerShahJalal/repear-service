@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Wiring and installation",
+        "image": "https://image.freepik.com/free-photo/electrician-working-near-board-with-wires-installation-connection-electrics_169016-5875.jpg",
+        "description": "As homeowners depend upon more electrical devices, it is crucial to update and maintain electrical wiring circuitry. At our company, we are ready to help households adapt to higher power demands, renew faulty systems, and/or ensure their current wiring meets local regulations. Our licensed electricians can safely and efficiently rewire any home. ",
+        "price": 25
+    },
+    {
+        "id": 2,
+        "name": "Air Conditioner Services",
+        "image": "https://image.freepik.com/free-photo/repairman-doing-air-conditioner-service_1303-26541.jpg",
+        "description": " Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+        "price": 30
+    },
+    {
+        "id": 3,
+        "name": "Painting Services",
+        "image": "https://image.freepik.com/free-photo/man-involved-home-renovation-work-supplies-professional-repair-service-holds-painting-brush-makes-architectural-blueprint-wears-protective-clothes_273609-51501.jpg",
+        "description": "Our service company is simply dummy text of the printing and typesetting industry. Our service company has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset.",
+        "price": 30
+    },
+    {
+        "id": 4,
+        "name": "Plumber Services",
+        "image": "https://image.freepik.com/free-photo/cheerful-asian-plumber-sitting-floor-repairing-kitchen-sink_1098-17780.jpg",
+        "description": "Plumbing Services means the design, installation, construction, replacement, service, repair, alteration, or modification of the pipes, fixtures, and other apparatus used for bringing the water supply into a building and removing liquid and water-carried wastes from a building.",
+        "price": 50
+    },
+    {
+        "id": 5,
+        "name": "Gardening Services",
+        "image": "https://image.freepik.com/free-photo/portrait-man-working-with-weedwacker_329181-20603.jpg",
+        "description": "It is a good idea to give your house a thorough cleaning every few months. Dust every nook and corner of the house. Clean all the appliances, windows, and furniture. Use detergent and a steady supply of water to wash the area that is not carpeted..",
+        "price": 45
+    },
+    {
+        "id": 6,
+        "name": "Cleaning Service",
+        "image": "https://image.freepik.com/free-photo/medium-shot-man-cleaning-table_23-2148521056.jpg",
+        "description": "this reason, dry cleaning remains the best method for cleaning delicate items and removing stains and dirt of all kinds. The gentler cleaning methods used in dry cleaning combined with specialized cleaning detergents ensure that the process can effectively remove all stains and dirt on garments. Additionally, dry cleaning can breathe new life.",
+        "price": 50
+    }
+]
