@@ -1,0 +1,45 @@
+.banner-items{
+    top: -50px !important;
+    z-index: -1;
+    overflow: visible;
+}
+.items{
+    margin-top: -50px !important;
+    z-index: 999;
+    overflow: hidden;
+}
+.imgStyle{
+    transform: scale(1);
+    transition: 0.5s ease-in-out;
+    overflow: hidden;
+}
+.imgStyle:hover img{
+    transform: scale(1.3);
+    overflow: hidden;
+}
+.banner-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-button{
+    background-color: #fff;
+    color: coral;
+    border: 1px solid lightgrey;
+    transform: scale(1);
+    transition: 0.8s ease-in-out;
+    overflow: hidden;
+}
+.card-button:hover{
+    transform: scale(1.2);
+    overflow: hidden;
+    background-color:rgb(255, 137, 94);
+    color: #fff !important;
+}
+.items-col{
+    margin-bottom: 25px;
+    box-shadow: 4px 4px 20px rgba(56, 56, 56, 0.12);
+}
+.card{
+    box-shadow: 4px 4px 20px rgba(129, 128, 128, 0.12);
+}
