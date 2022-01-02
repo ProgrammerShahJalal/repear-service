@@ -26,10 +26,6 @@
     padding-top: 15px;
     border-top: 2px solid rgba(128, 128, 128, 0.438);
 }
-#special{
-    color: orange;
-    cursor: pointer;
-}
 .gallary img{
     width: 100%;
     display: flex;
@@ -37,6 +33,11 @@
     align-items: center;
     margin-bottom: 1em;
 }
+#special{
+    color: orange;
+    cursor: pointer;
+}
+
 
 /* Making responsive */
 @media (min-width: 320px) and (max-width: 425px) { 
