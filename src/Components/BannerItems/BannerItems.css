@@ -4,7 +4,8 @@
     overflow: visible;
 }
 .items{
-    margin-top: -50px !important;
+    margin-top: -100px !important;
+    margin-left: 150px;
     z-index: 999;
     overflow: hidden;
 }

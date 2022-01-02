@@ -15,6 +15,10 @@
 .caption h4{
     color: crimson;
 }
+.bn-special{
+    font-size: 1.2em;
+    color: #006466;
+}
 .carousel-control-next-icon, .carousel-control-prev-icon{
     background-color: rgb(218, 66, 11) !important;
     border-color: #000000 !important;

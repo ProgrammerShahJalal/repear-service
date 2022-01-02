@@ -31,7 +31,7 @@ const Banner = () => {
                     <div className="carousel-caption">
                         <Carousel.Caption className='carousel'>
                             <div className="caption">
-                                <h4 data-aos='fade-up'>Servicing & Repair Company</h4>
+                                <h4 data-aos='fade-up'>Best <span className='bn-special'>Service</span> Provider Company</h4>
                                 <h1 data-aos='fade-up'>Trusted Plumbing</h1>
                                 <p data-aos='fade-up'>Pellentesque habitant morbi tristique senectus et pellente morbi nectneolitics ellentesque vestibulum nectneolitics modern</p>
                                 <Button data-aos='fade-left' className="btn btn-style">Get Started Now <AiOutlineArrowRight className="arrow" /></Button>
@@ -49,7 +49,7 @@ const Banner = () => {
                     <div className="carousel-caption">
                         <Carousel.Caption className='carousel'>
                             <div className="caption">
-                                <h4 data-aos='fade-up'>Servicing & Repair Company</h4>
+                                <h4 data-aos='fade-up'>We are always ready to <span className='bn-special'>Services</span></h4>
                                 <h1 data-aos='fade-up'>Trusted Plumbing</h1>
                                 <p data-aos='fade-up'>Pellentesque habitant morbi tristique senectus et pellente morbi nectneolitics ellentesque vestibulum nectneolitics modern</p>
                                 <Button data-aos='fade-up' className="btn btn-style">Get Started Now <AiOutlineArrowRight className="arrow" /></Button>
@@ -68,7 +68,7 @@ const Banner = () => {
                     <div className="carousel-caption">
                         <Carousel.Caption className='carousel'>
                             <div className="caption">
-                                <h4 data-aos='fade-up'>Servicing & Repair Company</h4>
+                                <h4 data-aos='fade-up'>Make your <span className='bn-special'>dream</span> come true</h4>
                                 <h1 data-aos='fade-up'>Trusted Plumbing</h1>
                                 <p data-aos='fade-up'>Pellentesque habitant morbi tristique senectus et pellente morbi nectneolitics ellentesque vestibulum nectneolitics modern</p>
                                 <Button data-aos='fade-up' className="btn btn-style">Get Started Now <AiOutlineArrowRight className="arrow" /></Button>
