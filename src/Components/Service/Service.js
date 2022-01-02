@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, Router } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import './Service.css'
 
@@ -15,12 +15,11 @@ const Service = (props) => {
                         <h5 className="card-title">{name}</h5>
                         <p className="card-text"> <strong>Description:</strong> {description}</p>
                         <p className="text-nowrap"><strong >Price: $</strong>{price}</p>
-                        {/* <Router>
-                            <Link to={`/buynow/${_id}`}>
-                                <button className="btn btn-dark">
-                                    Buy now</button>
-                            </Link>
-                        </Router> */}
+
+                        <Link to={`/buynow/${_id}`}>
+                            <button className="btn btn-dark">
+                                Buy now</button>
+                        </Link>
 
                     </div>
 

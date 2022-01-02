@@ -8,7 +8,9 @@ const ServiceDetails = () => {
         fetch('/services.json')
             .then(res => res.json())
             .then((data) => {
-                const foundService = data.filter(detail => detail._id === id)
+                console.log(data);
+                const foundService = data.filter(detail => detail._id == id)
+                console.log(foundService);
                 setServiceDetails(foundService);
             })
     }, [id])
