@@ -1,3 +1,6 @@
+.container{
+    margin: 3em 0;
+}
 .footer{
     color: lightgray;
     background-color: rgb(1, 1, 39);
@@ -26,4 +29,11 @@
 #special{
     color: orange;
     cursor: pointer;
+}
+.gallary img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
 }

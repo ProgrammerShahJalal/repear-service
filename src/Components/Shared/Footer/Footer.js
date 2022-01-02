@@ -36,7 +36,24 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="col-md-3">
-
+                        <h3>Our Gallary</h3>
+                        <div className="row gallary">
+                            <div className="col-md-4">
+                                <img src="https://i.ibb.co/mX9k9Vh/img-ten-150x150.jpg" alt="" />
+                                <img src="https://i.ibb.co/SRDC0Cv/image-one-150x150.jpg" alt="" />
+                                <img src="https://i.ibb.co/k1Z8DcD/img-eight-150x150.jpg" alt="" />
+                            </div>
+                            <div className="col-md-4">
+                                <img src="https://i.ibb.co/ngxqjg0/img-six-150x150.jpg" alt="" />
+                                <img src="https://i.ibb.co/1XN9XPc/img-seven-150x150.jpg" alt="" />
+                                <img src="https://i.ibb.co/689ZSmW/img-four-150x150.jpg" alt="" />
+                            </div>
+                            <div className="col-md-4">
+                                <img src="https://i.ibb.co/dt97SWH/img-five-150x150.jpg" alt="" />
+                                <img src="https://i.ibb.co/8XHtq5d/image-two-150x150.jpg" alt="" />
+                                <img src="https://i.ibb.co/3MvfL6b/image-three-150x150.jpg" alt="" />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
