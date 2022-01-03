@@ -4,6 +4,7 @@ import ServiceCard from './ServiceCard/ServiceCard';
 import Banner from '../Banner/Banner';
 import BannerItems from '../BannerItems/BannerItems';
 import Services from '../Services/Services';
+import SpecialService from '../SpecialService/SpecialService';
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
             <BannerItems></BannerItems>
             <OfficeBenifits></OfficeBenifits>
             <Services></Services>
+            <SpecialService></SpecialService>
             <ServiceCard></ServiceCard>
         </div>
     );
