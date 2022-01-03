@@ -3,21 +3,21 @@
         "_id": 1,
         "name": "Wiring and installation",
         "image": "https://image.freepik.com/free-photo/electrician-working-near-board-with-wires-installation-connection-electrics_169016-5875.jpg",
-        "description": "As homeowners depend upon more electrical devices, it is crucial to update and maintain electrical wiring circuitry. At our company, we are ready to help households adapt to higher power demands, renew faulty systems, and/or ensure their current wiring meets local regulations. Our licensed electricians can safely and efficiently rewire any home. ",
+        "description": "As homeowners depend upon more electrical devices, it is crucial to update and maintain electrical wiring circuitry. At our company, we are ready to help households adapt to higher power demands, renew faulty systems, and/or ensure their current wiring meets local regulations.",
         "price": 25
     },
     {
         "_id": 2,
         "name": "Air Conditioner Services",
         "image": "https://image.freepik.com/free-photo/repairman-doing-air-conditioner-service_1303-26541.jpg",
-        "description": " Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+        "description": " Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, and going through the cites.",
         "price": 30
     },
     {
         "_id": 3,
         "name": "Painting Services",
         "image": "https://image.freepik.com/free-photo/man-involved-home-renovation-work-supplies-professional-repair-service-holds-painting-brush-makes-architectural-blueprint-wears-protective-clothes_273609-51501.jpg",
-        "description": "Our service company is simply dummy text of the printing and typesetting industry. Our service company has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset.",
+        "description": "Our service company is simply dummy text of the printing and typesetting industry. Our service company has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.",
         "price": 30
     },
     {
@@ -36,6 +36,27 @@
     },
     {
         "_id": 6,
+        "name": "Room Cleaning",
+        "image": "https://image.freepik.com/free-photo/happy-smiling-man-cleaning-carpet_1163-2435.jpg",
+        "description": "Cleaning and organizing your room will also bring some health benefits. You will instantly feel less stressed and distracted, which in turn means that you can go into bed calmly, relaxed and get a much better sleep. The total price depends on the size of the home, type of cleaning and where you live.",
+        "price": 50
+    },
+    {
+        "_id": 7,
+        "name": "Home Maintenance",
+        "image": "https://image.freepik.com/free-photo/modern-studio-apartment-design-with-bedroom-living-space_1262-12375.jpg",
+        "description": "The first reason home maintenance is so important is that it saves you, the homeowner, money. ... While it's true, maintenance takes some money, dedication and hard work, in the long run you save much more money than if you didn't do maintenance and Maintenance of the house involves the various processes.",
+        "price": 50
+    },
+    {
+        "_id": 8,
+        "name": "Accessories Repair",
+        "image": "https://image.freepik.com/free-photo/close-up-cobbler-working-with-leather-textile_171337-12258.jpg",
+        "description": "Items such as such as jewellery, gloves, handbags, hats, belts, scarves, watches, sunglasses, pins, stockings, bow ties, leggings, ties, suspenders, and tights. Accessories add color, style and class to an outfit, and create a certain look, but they may also have practical functions. It enables people to enhance their personality, style, and look.",
+        "price": 90
+    },
+    {
+        "_id": 9,
         "name": "Cleaning Service",
         "image": "https://image.freepik.com/free-photo/medium-shot-man-cleaning-table_23-2148521056.jpg",
         "description": "this reason, dry cleaning remains the best method for cleaning delicate items and removing stains and dirt of all kinds. The gentler cleaning methods used in dry cleaning combined with specialized cleaning detergents ensure that the process can effectively remove all stains and dirt on garments. Additionally, dry cleaning can breathe new life.",
