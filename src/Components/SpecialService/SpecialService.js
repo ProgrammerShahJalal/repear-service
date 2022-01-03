@@ -20,7 +20,7 @@ const SpecialService = () => {
 
                             <div className="home-mantaince">
                                 <div className='home-icon'>
-                                    <i class="fas fa-laptop-house home-style"></i>
+                                    <i className="fas fa-laptop-house home-style"></i>
                                 </div>
                                 <div className="home-details">
                                     <p>we have experience in home maintenance any surface from new constructions to cabinets in commercial properties. if you are doing your</p>
@@ -29,7 +29,7 @@ const SpecialService = () => {
                             <hr />
                             <div className="home-mantaince">
                                 <div className='home-icon'>
-                                    <i class="fas fa-charging-station home-style"></i>
+                                    <i className="fas fa-charging-station home-style"></i>
                                 </div>
                                 <div className="home-details">
                                     <p>Electrical ServicesElectricity is very important part of our life. We can’t imagine it without home appliances that in turns work with services provider</p>
@@ -60,17 +60,17 @@ const SpecialService = () => {
                             </div>
                             <div className="assets-container">
                                 <div className="assets">
-                                    <p><i class="fas fa-briefcase"></i> 350+</p>
+                                    <p><i className="fas fa-briefcase"></i> 350+</p>
                                     <hr />
                                     <h4>project Completed</h4>
                                 </div>
                                 <div className="assets">
-                                    <p><i class="fas fa-user"></i> 120+</p>
+                                    <p><i className="fas fa-user"></i> 120+</p>
                                     <hr />
                                     <h4>Work Employed</h4>
                                 </div>
                                 <div className="assets">
-                                    <p><i class="fas fa-trophy"></i> 50+</p>
+                                    <p><i className="fas fa-trophy"></i> 50+</p>
                                     <hr />
                                     <h4>Years Experience</h4>
                                 </div>

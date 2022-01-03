@@ -5,7 +5,7 @@ const ServiceDetails = () => {
     let { id } = useParams();
     const [serviceDetails, setServiceDetails] = useState([])
     useEffect(() => {
-        fetch('/services.json')
+        fetch('http://localhost:5000/services')
             .then(res => res.json())
             .then((data) => {
                 console.log(data);
@@ -26,7 +26,7 @@ const ServiceDetails = () => {
                         <div className="card-body">
 
                             <p className="text-nowrap"><strong >{name}</strong></p>
-                            <p className="card-text"> <strong>Description:</strong> {description}</p>
+                            <p className="card-text">{description}</p>
 
                             <p className="text-nowrap"><strong >Price:</strong>{price}</p>
                         </div>
