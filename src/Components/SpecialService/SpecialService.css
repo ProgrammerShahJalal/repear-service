@@ -1,0 +1,152 @@
+
+.special-container{
+    width: 100%;
+    margin: 150px 0px;
+   
+}
+.special-content{
+    width: 100%;
+    
+}
+.special-single{
+    background-color: RGB(253, 161, 43);
+    width: 100%;
+}
+.image-special{
+    width: 100%;
+}
+.special-item{
+    width: 662px;
+    height:600px;
+    padding: 0px;
+    margin: 0px;
+    margin-top: -70px;
+    box-shadow: 14px 14px 20px rgba(129, 128, 128, 0.12);
+}
+.special-items1{
+    height: 400px !important;
+    color: #fff;
+}
+.special-item1{
+    padding: 40px 50px;
+    
+}
+.special-double{
+    background-color: RGB(24, 35, 51);
+    height: 600px !important;
+    width: 100%;
+}
+.imageSpecial{
+    margin-left: 40px;
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    height: 670px !important;
+    width: 450px !important;
+    box-shadow: 4px 4px 20px rgba(129, 128, 128, 0.12);
+}
+.special-heading{
+    border-left: 5px solid #fff;
+    padding-left: 20px;
+} 
+.special-items1 p{
+    margin-left: 25px;
+}
+.home-mantaince{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+
+}
+.home-icon{
+    border: 2px solid #fff;
+}
+.home-style{
+    font-size: 60px;
+    padding: 10px;
+}
+.special-pic{
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.special-customer h2{
+    color: #fff;
+}
+.special-customer h6{
+    color: coral;
+}
+.special-customer p{
+    color: rgb(224, 215, 215);
+    margin-top: 30px;
+    width: 600px;
+    font-size: 18px;
+    font-weight: 400px;
+    border-left: 5px solid coral;
+    padding: 20px;
+}
+.assets-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.assets{
+    text-align: center;
+}
+.assets hr{
+    color: gray;
+}
+.assets p{
+    color: RGB(253, 161, 43);
+    font-size: 40px;
+}
+.assets h4{
+    color: #fff;
+}
+@media only screen and (max-width: 600px) {
+    .special-container{
+        display: none;
+    }
+    .special-item{
+        height: 100%;
+        width: 100%;
+        margin-top: 10px;
+        display: none;
+    }
+    .special-items{
+        
+        width: 100%;
+        height: 100%;
+    }
+    .special-items1{
+        height: 100%;
+        width: 100%;
+        display: block;
+    }
+    .imageSpecial{
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+    }
+    .special-items1{
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+    }
+    .special-items2{
+        height: 100%;
+        width: 100%;
+        margin-left: 0px;
+        margin: auto;
+    }
+    .special-double{
+        width: 100%;
+        margin: 20px auto;
+    }
+    .special-customer{
+        width: 100%;
+    }
+    .special-customer p{
+        width: 100%;
+    }
+}
