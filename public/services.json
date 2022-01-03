@@ -11,7 +11,7 @@
         "name": "Air Conditioner Services",
         "image": "https://image.freepik.com/free-photo/repairman-doing-air-conditioner-service_1303-26541.jpg",
         "description": " Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, and going through the cites.",
-        "price": 30
+        "price": 45
     },
     {
         "_id": 3,
@@ -32,14 +32,14 @@
         "name": "Gardening Services",
         "image": "https://image.freepik.com/free-photo/portrait-man-working-with-weedwacker_329181-20603.jpg",
         "description": "It is a good idea to give your house a thorough cleaning every few months. Dust every nook and corner of the house. Clean all the appliances, windows, and furniture. Use detergent and a steady supply of water to wash the area that is not carpeted..",
-        "price": 45
+        "price": 65
     },
     {
         "_id": 6,
         "name": "Room Cleaning",
         "image": "https://image.freepik.com/free-photo/happy-smiling-man-cleaning-carpet_1163-2435.jpg",
         "description": "Cleaning and organizing your room will also bring some health benefits. You will instantly feel less stressed and distracted, which in turn means that you can go into bed calmly, relaxed and get a much better sleep. The total price depends on the size of the home, type of cleaning and where you live.",
-        "price": 50
+        "price": 79
     },
     {
         "_id": 7,
@@ -60,6 +60,6 @@
         "name": "Cleaning Service",
         "image": "https://image.freepik.com/free-photo/medium-shot-man-cleaning-table_23-2148521056.jpg",
         "description": "this reason, dry cleaning remains the best method for cleaning delicate items and removing stains and dirt of all kinds. The gentler cleaning methods used in dry cleaning combined with specialized cleaning detergents ensure that the process can effectively remove all stains and dirt on garments. Additionally, dry cleaning can breathe new life.",
-        "price": 50
+        "price": 83
     }
 ]
