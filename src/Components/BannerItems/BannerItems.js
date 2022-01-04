@@ -12,7 +12,8 @@ const BannerItems = () => {
                 <Container>
                     <Row className='items'>
                         <Col xs={12} md={4} className="items-col">
-                            <Card className='card'>
+                            <Card data-aos="fade-up"
+                                data-aos-duration="3000" className='card'>
                                 <div className="imgStyle">
                                     <img
                                         className="d-block w-100 imgStyle"
@@ -30,7 +31,8 @@ const BannerItems = () => {
                             </Card>
                         </Col>
                         <Col xs={12} md={4} className="items-col">
-                            <Card>
+                            <Card data-aos="fade-up"
+                                data-aos-duration="3000">
                                 <div className="imgStyle">
                                     <img
                                         className="d-block w-100 imgStyle"
@@ -48,7 +50,8 @@ const BannerItems = () => {
                             </Card>
                         </Col>
                         <Col xs={12} md={4} className="items-col">
-                            <Card className="">
+                            <Card data-aos="fade-up"
+                                data-aos-duration="3000">
                                 <div className="imgStyle">
                                     <img
                                         className="d-block w-100 imgStyle"
