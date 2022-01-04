@@ -10,6 +10,7 @@ import Login from './Components/Login/Login';
 import Register from './Components/Register/Register';
 import PrivateRoute from './Components/Login/PrivateRoute/PrivateRoute';
 import AuthProvider from './Contexts/AuthProvider/AuthProvider';
+import BlogsAndNews from './Components/Home/BlogsAndNews/BlogsAndNews';
 
 
 
@@ -22,6 +23,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/home' element={<Home />} />
           <Route path='/services' element={<Services />} />
+          <Route path='/blog' element={<BlogsAndNews />} />
           <Route path='/buynow/:id' element={<PrivateRoute><ServiceDetails /></PrivateRoute>} />
           <Route path='/login' element={<Login />} />
           <Route path='/register' element={<Register />} />
