@@ -1,0 +1,15 @@
+.blogLine{
+    border-left: 6px solid #fda12b;
+    padding-left: 30px;
+}
+.blog-container{
+    background-image: url(https://www.themetechmount.com/wordpress/boldman/elementor/wp-content/uploads/sites/2/2019/02/row-bg-two.jpg);
+    background-size: cover;
+}
+.blog-card:hover{
+    transform: translate(0%,-5%);
+    transition: 1s;
+}
+.blog-title:hover{
+    color: #fda12b;
+}

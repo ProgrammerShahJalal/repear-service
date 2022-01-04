@@ -1,0 +1,21 @@
+.lineOne{
+    border-left: 6px solid rgb(10, 10, 10);
+    padding-left: 30px;
+}
+.lineTwo{
+    border-left: 1px solid black;
+    padding-left: 30px;
+}
+.lineAnchor{
+    border: 1px solid black;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+.lineAnchor:hover{
+    background-color: #fda12b;
+    transition: 2s;
+    color: white;
+}
