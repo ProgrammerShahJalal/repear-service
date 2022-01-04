@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import { Link, useHistory } from 'react-router-dom';
+import { Link, useNavigate, } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
 
 
 const Register = () => {
     const [loginData, setLoginData] = useState({});
 
-    const history = useHistory();
+    const history = useNavigate();
     const { user, registerUser, isLoading, authError } = useAuth();
 
     const handleOnBlur = e => {

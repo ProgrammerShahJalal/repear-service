@@ -5,6 +5,7 @@ import './Service.css'
 
 
 const Service = (props) => {
+
     const { name, image, description, price, _id } = props.service;
     return (
         <div>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, useLocation, useHistory } from 'react-router-dom';
+import { Link, useLocation, useNavigate, } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
 
 
@@ -9,7 +9,7 @@ const Login = () => {
     const { user, loginUser, isLoading, signInWithGoogle, authError } = useAuth();
 
     const location = useLocation();
-    const history = useHistory()
+    const history = useNavigate()
 
     const handleOnChange = e => {
         const field = e.target.name;

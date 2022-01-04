@@ -8,25 +8,27 @@ import ServiceDetails from './Components/ServiceDetails/ServiceDetails';
 import Services from './Components/Services/Services';
 import Login from './Components/Login/Login';
 import Register from './Components/Register/Register';
+import PrivateRoute from './Components/Login/PrivateRoute/PrivateRoute';
+import AuthProvider from './Contexts/AuthProvider/AuthProvider';
 
 
 
 function App() {
   return (
-    <div>
+    <AuthProvider>
       <Router>
         <Header />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/home' element={<Home />} />
           <Route path='/services' element={<Services />} />
-          <Route path='/buynow/:id' element={<ServiceDetails />} />
+          <Route path='/buynow/:id' element={<PrivateRoute><ServiceDetails /></PrivateRoute>} />
           <Route path='/login' element={<Login />} />
           <Route path='/register' element={<Register />} />
         </Routes>
         <Footer />
       </Router>
-    </div>
+    </AuthProvider>
   );
 }
 
