@@ -4,7 +4,7 @@ import './RepearContact.css';
 
 const RepearContact = () => {
     return (
-        <div>
+        <div className='w-75 mx-auto'>
             <Row>
                 <Col xs={12} md={3}>
                     <div className="repair-info-container">

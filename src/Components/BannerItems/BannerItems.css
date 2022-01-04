@@ -1,4 +1,6 @@
 .banner-items{
+    width: 80%;
+    margin: 0 auto;
     top: -50px !important;
     z-index: -1;
     overflow: visible;

@@ -5,8 +5,9 @@ import { Col, Container, Row } from 'react-bootstrap';
 
 const MyMap = () => {
     const containerStyle = {
-        width: '100%',
-        height: '600px'
+        width: '85%',
+        height: '600px',
+        margin: '0 auto'
     };
 
     const center = {
@@ -21,7 +22,7 @@ const MyMap = () => {
     ]
 
     return (
-        <div className='mx-auto'>
+        <div>
             <LoadScript
                 googleMapsApiKey={process.env.GOOGLE_MAP_API_KEY_REPAIR_SERVICE}
             >
