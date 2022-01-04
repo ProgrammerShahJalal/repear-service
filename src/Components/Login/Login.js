@@ -30,7 +30,7 @@ const Login = () => {
     }
 
     return (
-        <div className="container pb-5 bg-dark w-50">
+        <div className="container pb-5 bg-dark w-50 mx-auto">
             <h3 className="mt-5 text-center text-info fw-bolder ">Login Form</h3>
             <form onSubmit={handleLoginSubmit}>
                 <input
@@ -63,7 +63,7 @@ const Login = () => {
                 <p className="text-white fw-bolder">New User? Please <Link className="text-decoration-none text-info" to="/register">Register</Link></p>
             </form>
 
-            <button className="btn-warning mt-4  rounded text-nowrap" onClick={handleGoogleSignIn}><i className="fab fa-google text-info"></i> Login with Google
+            <button className="btn-warning mt-4  rounded text-wrap" onClick={handleGoogleSignIn}><i className="fab fa-google text-info"></i> Login with Google
             </button>
 
         </div>

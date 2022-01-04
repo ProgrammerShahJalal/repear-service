@@ -3,8 +3,8 @@ import OfficeBenifits from './OfficeBenifits/OfficeBenifits';
 import ServiceCard from './ServiceCard/ServiceCard';
 import Banner from '../Banner/Banner';
 import BannerItems from '../BannerItems/BannerItems';
-import Services from '../Services/Services';
 import SpecialService from '../SpecialService/SpecialService';
+import HomeServices from './HomeServices/HomeServices';
 
 const Home = () => {
     return (
@@ -12,7 +12,7 @@ const Home = () => {
             <Banner></Banner>
             <BannerItems></BannerItems>
             <OfficeBenifits></OfficeBenifits>
-            <Services></Services>
+            <HomeServices></HomeServices>
             <SpecialService></SpecialService>
             <ServiceCard></ServiceCard>
         </div>
