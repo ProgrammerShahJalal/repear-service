@@ -18,7 +18,7 @@ const Footer = () => {
                     </div>
                     <div className="col-md-2">
                         <h3>Follow Us</h3>
-                        <img className='w-50' src={down} alt="" />
+                        <img className='w-25' src={down} alt="" />
                         <div className="row">
                             <div className="footer-icon">
                                 <i className="fab fa-facebook-f"></i>

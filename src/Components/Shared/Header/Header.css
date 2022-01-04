@@ -1,3 +1,7 @@
 .logo{
     width: 2.2rem;
 }
+.navbar-custom{
+    color: white;
+    background-color: darkblue;
+}
