@@ -30,10 +30,11 @@ const Login = () => {
     }
 
     return (
-        <div className="container pb-5 bg-dark w-50 mx-auto">
+        <div className="container pb-5 login-box w-50 mx-auto">
             <h3 className="mt-5 text-center text-info fw-bolder ">Login Form</h3>
             <form onSubmit={handleLoginSubmit}>
                 <input
+                    className='py-2 border rounded'
                     style={{ width: '100%' }}
                     label="Your Email"
                     name="email"
@@ -41,7 +42,7 @@ const Login = () => {
                     onBlur={handleOnChange}
                 />
                 <br />
-                <input className="mt-4"
+                <input className="mt-4 py-2 border rounded"
                     style={{ width: '100%' }}
                     label="Your Password"
                     type="password"

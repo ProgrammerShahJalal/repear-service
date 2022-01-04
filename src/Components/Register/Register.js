@@ -26,11 +26,11 @@ const Register = () => {
         e.preventDefault();
     }
     return (
-        <div className="container mt-4 bg-dark w-50">
+        <div className="container px-3 pb-2 mt-4 login-box mx-auto w-50">
             <h3 className="mt-5 text-center text-info fw-bolder ">Register Form</h3>
             {
                 !isLoading && <form onSubmit={handleLoginSubmit}>
-                    <input className="mb-4"
+                    <input className="mb-4 py-2 border rounded"
                         style={{ width: '100%' }}
                         label="Your Name"
                         name="name"
@@ -41,6 +41,7 @@ const Register = () => {
                     />
                     <br />
                     <input
+                        className='py-2 border rounded'
                         style={{ width: '100%' }}
                         label="Your Email"
                         name="email"
@@ -50,7 +51,7 @@ const Register = () => {
                         required
                     />
                     <br />
-                    <input className="mt-4"
+                    <input className="mt-4 py-2 border rounded"
                         style={{ width: '100%' }}
                         label="Your Password"
                         type="password"
@@ -59,7 +60,7 @@ const Register = () => {
                         onBlur={handleOnBlur} />
                     <br />
 
-                    <input className="mt-4"
+                    <input className="mt-4 py-2 border rounded"
                         style={{ width: '100%' }}
                         label="ReType Your Password"
                         type="password"
