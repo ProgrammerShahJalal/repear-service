@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Login.css';
 import { Link, useLocation, useNavigate, } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
 
@@ -29,7 +30,7 @@ const Login = () => {
     }
 
     return (
-        <div className="container mt-4 bg-dark w-50">
+        <div className="container pb-5 bg-dark w-50">
             <h3 className="mt-5 text-center text-info fw-bolder ">Login Form</h3>
             <form onSubmit={handleLoginSubmit}>
                 <input
