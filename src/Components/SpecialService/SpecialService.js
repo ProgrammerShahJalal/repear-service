@@ -1,10 +1,10 @@
 import React from 'react';
-import CountUp from 'react-countup';
 import './SpecialService.css';
 import { Col, Row } from 'react-bootstrap';
-import single1 from '../bannerImage/single1.jpg'
-import single3 from '../bannerImage/single3.jpg'
-import reviewimg from '../bannerImage/review.jpg'
+import single1 from '../bannerImage/single1.jpg';
+import single3 from '../bannerImage/single3.jpg';
+import reviewimg from '../bannerImage/review.jpg';
+import CountUp from 'react-countup';
 
 const SpecialService = () => {
     return (
@@ -61,17 +61,32 @@ const SpecialService = () => {
                             </div>
                             <div className="assets-container">
                                 <div className="assets">
-                                    <p><i className="fas fa-briefcase"></i><CountUp suffix={"+"} end={100} /></p>
+                                    <p><i className="fas fa-briefcase"></i> <CountUp
+                                        start={-875.03}
+                                        end={299.00}
+                                        duration={2.75}
+                                        separator=" "
+                                        decimals={2}
+                                        decimal="."
+                                        suffix=" +"
+                                    >
+                                        {({ countUpRef, start }) => (
+                                            <span>
+                                                <span ref={countUpRef} />
+                                                <button className='special-btn' onClick={start}>Start</button>
+                                            </span>
+                                        )}
+                                    </CountUp></p>
                                     <hr />
                                     <h4>project Completed</h4>
                                 </div>
                                 <div className="assets">
-                                    <p><i className="fas fa-user"></i> 120+</p>
+                                    <p><i className="fas fa-user"></i> <CountUp end={340} suffix='+' /></p>
                                     <hr />
                                     <h4>Work Employed</h4>
                                 </div>
                                 <div className="assets">
-                                    <p><i className="fas fa-trophy"></i> 50+</p>
+                                    <p><i className="fas fa-trophy"></i> <CountUp end={450} suffix='+' /></p>
                                     <hr />
                                     <h4>Years Experience</h4>
                                 </div>
