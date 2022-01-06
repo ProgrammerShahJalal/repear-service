@@ -1,4 +1,5 @@
 import React from 'react';
+import './Service.css';
 import { Link } from 'react-router-dom';
 
 import './Service.css'
@@ -18,7 +19,7 @@ const Service = (props) => {
                         <p className="text-nowrap"><strong >Price: $</strong>{price}</p>
 
                         <Link to={`/buynow/${_id}`}>
-                            <button className="btn btn-dark">
+                            <button className="btn btn-dark special-btn">
                                 Buy now</button>
                         </Link>
 
