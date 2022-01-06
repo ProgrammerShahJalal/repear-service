@@ -9,7 +9,7 @@
     
 }
 .special-single{
-    background-color: RGB(253, 161, 43);
+    background-color: darkorange;
     width: 100%;
 }
 .image-special{
@@ -74,7 +74,7 @@
     color: #fff;
 }
 .special-customer h6{
-    color: coral;
+    color: darkorange;
 }
 .special-customer p{
     color: rgb(224, 215, 215);

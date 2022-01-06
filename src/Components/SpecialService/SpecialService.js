@@ -1,5 +1,6 @@
 import React from 'react';
-import './SpecialService.css'
+import CountUp from 'react-countup';
+import './SpecialService.css';
 import { Col, Row } from 'react-bootstrap';
 import single1 from '../bannerImage/single1.jpg'
 import single3 from '../bannerImage/single3.jpg'
@@ -60,7 +61,7 @@ const SpecialService = () => {
                             </div>
                             <div className="assets-container">
                                 <div className="assets">
-                                    <p><i className="fas fa-briefcase"></i> 350+</p>
+                                    <p><i className="fas fa-briefcase"></i><CountUp end={100} /></p>
                                     <hr />
                                     <h4>project Completed</h4>
                                 </div>
