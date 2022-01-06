@@ -61,7 +61,7 @@ const SpecialService = () => {
                             </div>
                             <div className="assets-container">
                                 <div className="assets">
-                                    <p><i className="fas fa-briefcase"></i><CountUp end={100} /></p>
+                                    <p><i className="fas fa-briefcase"></i><CountUp suffix={"+"} end={100} /></p>
                                     <hr />
                                     <h4>project Completed</h4>
                                 </div>
