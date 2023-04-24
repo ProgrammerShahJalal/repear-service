@@ -8,7 +8,7 @@ const Services = () => {
     const [isLoading, setIsLoading] = useState(true);
     useEffect(() => {
         setIsLoading(true);
-        fetch("https://morning-coast-96153.herokuapp.com/services")
+        fetch("https://car-repair.up.railway.app/services")
             .then(res => res.json())
             .then(data => {
                 setIsLoading(false);

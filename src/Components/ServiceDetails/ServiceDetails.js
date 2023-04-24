@@ -6,7 +6,7 @@ const ServiceDetails = () => {
     let { id } = useParams();
     const [serviceDetails, setServiceDetails] = useState([])
     useEffect(() => {
-        fetch('https://morning-coast-96153.herokuapp.com/services')
+        fetch('https://car-repair.up.railway.app/services')
             .then(res => res.json())
             .then((data) => {
                 console.log(data);

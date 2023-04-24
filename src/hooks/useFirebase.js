@@ -72,7 +72,7 @@ const useFirebase = () => {
 
     // admin useEffect
     useEffect(() => {
-        fetch(`https://morning-coast-96153.herokuapp.com/users/${user.email}`)
+        fetch(`https://car-repair.up.railway.app/users/${user.email}`)
             .then(res => res.json())
             .then(data => setAdmin(data.admin));
     }, [user.email])
@@ -106,7 +106,7 @@ const useFirebase = () => {
 
     const saveUser = (email, displayName, method) => {
         const user = { email, displayName };
-        fetch('https://morning-coast-96153.herokuapp.com/users', {
+        fetch('https://car-repair.up.railway.app/users', {
             method: method,
             headers: {
                 'content-type': 'application/json'
